@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "heady"
+version = "0.1.0"
+description = "CLI tool to scan HTTP security headers, validate configuration, and export reports."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "Abhinav Mishra" }
+]
+
+dependencies = [
+  "requests>=2.31.0",
+  "pandas>=2.0.0",
+  "openpyxl>=3.1.0"
+]
+
+[project.scripts]
+heady = "Heady.sec_headers_scan:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

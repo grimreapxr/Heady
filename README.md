@@ -58,6 +58,7 @@ python -m pip install -r requirements.txt
 ## Usage
 
 ```heady https://example.com
+
 ```
 
 ## Export Reports
@@ -98,8 +99,6 @@ Excel export requires:
 - pandas
 - openpyxl
 
----
-
 ## Exit Codes
 
 - 0  
@@ -110,15 +109,11 @@ Excel export requires:
 
 This makes HEADY suitable for CI/CD pipelines and automated security checks.
 
----
-
 ## Notes
 
 - HEADY analyzes HTTP response headers only.
 - It does not inspect HTML meta tags, JavaScript, or browser runtime behavior.
 - Results represent header-level security posture, not full application security.
-
----
 
 ## License
 

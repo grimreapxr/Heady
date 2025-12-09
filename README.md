@@ -51,14 +51,15 @@ heady/
 
 ## Installation
 
-```python -m pip install --upgrade pip
+```
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
 ## Usage
 
-```heady https://example.com
-
+```
+heady https://example.com
 ```
 
 ## Export Reports

@@ -40,15 +40,6 @@ The tool is designed to run cleanly on Windows and Linux terminals.
 - Cross-Origin-Opener-Policy (COOP)
 - X-XSS-Protection (legacy, informational)
 
-## Project Structure
-heady/
-├── heady/
-│ ├── init.py
-│ └── sec_headers_scan.py
-├── pyproject.toml
-├── requirements.txt
-└── README.md
-
 ## Installation
 
 ```
